@@ -80,6 +80,9 @@ a { color: inherit; }
 .background-list > div:first-child { border-top: 0; padding-top: 0; }
 .background-list span { color: var(--muted); font: 400 .76rem var(--mono); letter-spacing: .06em; text-transform: uppercase; }
 .background-list p { margin: 0; font-size: 1rem; }
+.background-list p a { color: inherit; text-decoration: none; }
+.background-list p a:hover { color: var(--purple); }
+.background-list p a b { color: var(--purple); font-size: .9rem; }
 .background-list > a { display: inline-block; margin-top: 20px; color: var(--ink); font: 500 .76rem var(--mono); text-decoration: none; }
 .background-list > a:hover { color: var(--purple); }
 .background-list > a b { margin-left: 8px; color: var(--purple); font-size: 1rem; }
